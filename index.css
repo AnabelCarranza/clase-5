@@ -1,0 +1,119 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.4);
+    color: rgb(99, 95, 95);
+    width: 70%;
+}
+
+.card-img {
+    background-color: rgb(233, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.img {
+    width: 100%;
+}
+
+.container {
+    Font-Family: 'Open Sans', Sans-Serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 25px;
+    padding-bottom: 0;
+    width: 100%;
+
+
+}
+
+.product-title {
+    margin-top: 0;
+    Font-Size: 40px;
+}
+
+.product-description {
+    Font-Size: 15px;
+
+}
+
+.price {
+    Font-Size: 10px;
+    margin-bottom: 4px;
+}
+
+.product-price {
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.product-colors {
+    margin: 25px 0 4px;
+    Font-Size: 10px;
+}
+
+.color-black {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.color-red {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(128, 8, 8);
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.color-gold {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(216, 158, 10);
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.color-grey {
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+.box-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.title-button {
+    background-color: rgb(92, 127, 243);
+    color: honeydew;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;   
+}
+
+
